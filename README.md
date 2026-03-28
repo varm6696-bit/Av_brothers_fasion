@@ -38,7 +38,7 @@ Explore
 
 
 
-<div style="border:1px solid #ddd; padding:15px; width:200px;">
+<rightside style="border:1px solid #ddd; padding:15px; width:200px;">
 <img src="top3.jpg" width="100%" 
 <h3>Trendly Ribbed V-Neck Crop Top with contrast trim- Sporty and Stylish (white)</h3>
 <p>Price: ₹299</p>
@@ -53,7 +53,7 @@ Explore
 <div style="border:1px solid #ddd; padding:15px; width:200px;">
 <img src="top2.jpg" width="100%" 
 <h3>top trending product||crop top shirt||top for women||top shirt for women||women top||crop top for girls||crop top party wear (white)</h3>
-<p>Price: ₹299</p>
+<p>Price: ₹199</p>
 <a href="payment.html">
 <button style="background:#e91e63; color:white; padding:10px 20px; border:none; border-radius:5px;">
 Explore
@@ -64,7 +64,7 @@ Explore
 <div style="border:1px solid #ddd; padding:15px; width:200px;">
 <img src="top5.jpg" width="100%">
 <h3>top trending product||crop top shirt||top for women||top shirt for women||women top||crop top for girls||crop top party wear (white)</h3>
-<p>Price: ₹499</p>
+<p>Price: ₹199</p>
 <a href="payment.html">
 <button style="background:#e91e63; color:white; padding:10px 20px; border:none; border-radius:5px;">
 Explore 
