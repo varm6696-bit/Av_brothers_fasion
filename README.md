@@ -52,6 +52,13 @@
     <h1>AV Brothers Fashion & Clothing</h1>
     <p>Fena Gaon, Kamatghar, Bhiwandi</p>
 <input type="text" placeholder="Search product..." onkeyup="searchProduct(this.value)">
+<input type="text" id="search" placeholder="Search product..." onkeyup="filterProduct()">
+
+<select onchange="filterProduct()" id="category">
+  <option value="all">All</option>
+  <option value="top">Top</option>
+  <option value="kurti">Kurti</option>
+</select>
 </header>
 
 <div class="section">
@@ -61,6 +68,7 @@
 <div class="products">
 
 <!-- Product 1 -->
+<div class="card" data-category="top">
 <div class="card">
 <img src="top4.jpg">
 <h3>Stylish Collar Girls Top</h3>
@@ -69,6 +77,7 @@
 </div>
 
 <!-- Product 2 -->
+<div class="card" data-category="top">
 <div class="card">
 <img src="top3.jpg">
 <h3>Ribbed V-Neck Crop Top (White)</h3>
@@ -77,6 +86,7 @@
 </div>
 
 <!-- Product 3 -->
+<div class="card" data-category="top">
 <div class="card">
 <img src="top2.jpg">
 <h3>Trending Crop Top (White)</h3>
@@ -85,6 +95,7 @@
 </div>
 
 <!-- Product 4 -->
+<div class="card" data-category="top">
 <div class="card">
 <img src="top5.jpg">
 <h3>Stylish Party Wear Top</h3>
@@ -115,6 +126,27 @@ function searchProduct(value){
     let text = card.innerText.toLowerCase();
 
     if(text.includes(value)){
+      card.style.display = "block";
+    } else {
+      card.style.display = "none";
+    }
+  });
+}
+</script>
+<script>
+function filterProduct(){
+  let search = document.getElementById("search").value.toLowerCase();
+  let category = document.getElementById("category").value;
+  let cards = document.querySelectorAll(".card");
+
+  cards.forEach(card => {
+    let text = card.innerText.toLowerCase();
+    let cardCategory = card.getAttribute("data-category");
+
+    let matchSearch = text.includes(search);
+    let matchCategory = (category === "all" || category === cardCategory);
+
+    if(matchSearch && matchCategory){
       card.style.display = "block";
     } else {
       card.style.display = "none";
