@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,6 +51,7 @@
 <header>
     <h1>AV Brothers Fashion & Clothing</h1>
     <p>Fena Gaon, Kamatghar, Bhiwandi</p>
+<input type="text" placeholder="Search product..." onkeyup="searchProduct(this.value)">
 </header>
 
 <div class="section">
@@ -104,5 +106,21 @@
     © 2026 AV Brothers Fashion & Clothing
 </footer>
 
+<script>
+function searchProduct(value){
+  let cards = document.querySelectorAll(".card");
+  value = value.toLowerCase();
+
+  cards.forEach(card => {
+    let text = card.innerText.toLowerCase();
+
+    if(text.includes(value)){
+      card.style.display = "block";
+    } else {
+      card.style.display = "none";
+    }
+  });
+}
+</script>
 </body>
 </html>
