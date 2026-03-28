@@ -27,9 +27,9 @@
 <div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap;">
 
 <div style="border:1px solid #ddd; padding:15px; width:200px;">
-<img src="shirt.jpg" width="100%">
-<h3>Men Shirt</h3>
-<p>Price: ₹499</p>
+<img src="top3.jpg" width="100%">
+<h3>NEVER GIVE UP (BLACK)</h3>
+<p>Price: ₹199</p>
 <a href="payment.html">
 <button style="background:#e91e63; color:white; padding:10px 20px; border:none; border-radius:5px;">
 Explore
@@ -39,9 +39,9 @@ Explore
 
 
 <div style="border:1px solid #ddd; padding:15px; width:200px;">
-<img src="KK.jpg" width="100%" 
-<h3>Kurti</h3>
-<p>Price: ₹599</p>
+<img src="top4.jpg" width="100%" 
+<h3>Stylish White Top</h3>
+<p>Price: ₹299</p>
 <a href="payment.html">
 <button style="background:#e91e63; color:white; padding:10px 20px; border:none; border-radius:5px;">
 Explore
