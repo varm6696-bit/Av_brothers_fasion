@@ -28,7 +28,7 @@
 
 <div style="border:1px solid #ddd; padding:15px; width:200px;">
 <img src="top4.jpg" width="100%">
-<h3>NEVER GIVE UP (Marun,brown,Green,black)</h3>
+<h3>Stylish Collor Girls top (Marun,brown,Green,black)</h3>
 <p>Price: ₹199</p>
 <a href="payment.html">
 <button style="background:#e91e63; color:white; padding:10px 20px; border:none; border-radius:5px;">
