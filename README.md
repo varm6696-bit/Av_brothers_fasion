@@ -16,6 +16,7 @@
 <header>
     <h1>AV Brothers Fashion & Clothing</h1>
     <p>Fena Gaon, Kamatghar, Bhiwandi</p>
+ <input type="text" class="search" placeholder="Search..." onkeyup="searchProduct(this.value)">
 </header>
 
 <div class="section">
