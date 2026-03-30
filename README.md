@@ -70,6 +70,15 @@
 <!-- Product 1 -->
 <div class="card" data-category="top">
 <div class="card">
+<img src="AI.jpg">
+<h3>ANISHA DRESS WITH DUPATTA (MORE COLOURS OPTION IN ALL SIZES)</h3>
+<p>Price: ₹599</p>
+<a href="payment.html"><button>Explore</button></a>
+</div>
+    
+<!-- Product 1 -->
+<div class="card" data-category="top">
+<div class="card">
 <img src="top4.jpg">
 <h3>Stylish Collar Girls Top</h3>
 <p>Price: ₹199</p>
